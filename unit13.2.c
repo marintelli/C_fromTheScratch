@@ -16,5 +16,6 @@ int main()
 }
 
 /*
-
+num ++ // num = num + 1 
+num -- // num - num - 1 
 */

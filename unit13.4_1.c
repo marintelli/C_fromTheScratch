@@ -12,10 +12,16 @@ int main()
 
 
     printf("%d %d\n", num3, num4);
-    printf("%d %d\n", num1, num2);    
+    printf("%d %d\n", num1, num2); 
+
+
+       
     return 0 ; 
 }
 
 /*
-
+num3 = num1++
+은 두 행을 실행하는 것을 내포한다. 
+num3 = num1 ;
+num1 = num1 + 1 ;
 */
