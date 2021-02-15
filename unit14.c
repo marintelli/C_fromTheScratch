@@ -28,7 +28,10 @@ int main()
 
     num7 = num5 / num6 ;
 
-    printf("%f\n", num7);
+    printf("%f\n", num7); // 
+    //실행결과 실수 값에 0.0을 나누면 실행이 중단되지 않고 무한대가(inf)가 나옵니다. 
+
+    
 
 
 
