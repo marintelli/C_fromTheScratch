@@ -22,11 +22,11 @@ int main()
 
     printf("%d\n", num3);
 
-
+    // 문자 자료형과 int 자료형을 연산은 가능
     char num4 = 28;
     int num5 = 1000000002;
     //char 은 1 바이트 메모리를 사용하므로, 그 이상의 수는 버려짐
-    char num6 = num4 + num5;
+    char num6 = num4 + num5; 
     printf("%d\n", num6);
 
 
