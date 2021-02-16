@@ -24,7 +24,8 @@ int main()
 
     printf("%u\n", num5 << 3 ); // 0001 1000
     printf("%u\n", num6 >> 2); // 0000 0110
-    
+
+
     return 0;
 
 }
