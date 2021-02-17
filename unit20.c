@@ -28,7 +28,7 @@ int main()
 
     int num4 = 0;
     int num5;
-
+// num4가 0이므로 c는 거짓으로 인식
     num5 = num4 ? 100 : 200;
 
     printf("%d\n", num5);
