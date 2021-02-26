@@ -17,7 +17,7 @@ int main(void)
 
     printf("num1 num2 : %d %d \n", num1, num2);
 
-    swap(num1, num2);
+    swap(num1, num2); // num1, num2 가 바뀔 것을 기대하면 안되는 것 알지요? 
     printf("num1 num2 : %d %d \n", num1, num2);
 
 

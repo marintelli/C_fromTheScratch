@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//call by reference
 void swap(int *n1, int *n2)
 {
 
@@ -17,7 +17,8 @@ int main(void)
 
     printf("num1 num2 : %d %d \n", num1, num2);
 
-    swap(&num1, &num2); // num1, num2 가 바뀔 것을 기대하면 안되는 것 알지요? 
+    swap(&num1, &num2); // 이로 인해 swap의 매개변수 n1,n2는 각각 num1, num2를 가리킨다. 
+
     printf("num1 num2 : %d %d \n", num1, num2);
 
 
