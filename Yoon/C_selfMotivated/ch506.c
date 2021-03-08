@@ -16,8 +16,11 @@ int main()
 /*
 
 68.6000000에 적합한 데이터 타입은?
-float
+
+long double type
+
 그것을 지칭하는 서식문자는?
+%Lf: long floating point
 
 */
 
