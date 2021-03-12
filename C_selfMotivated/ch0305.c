@@ -23,6 +23,8 @@ int main()
     // a와 b 가 같지않냐? 같지 않다는 것이 참이면  1 아니면 0
     result4 = (b != c);
 
+    printf("%d %d %d %d %d \n", result1, result2, result3, result4);
+    
     return 0;
 
 }
