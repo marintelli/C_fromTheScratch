@@ -13,11 +13,11 @@ int main()
 
 	if (a >= b)
 	{
-		printf("%d", a - b);
+		printf("%d\n", a - b);
 	}
 	else
 	{
-		printf("%d", b - a);
+		printf("%d\n", b - a);
 	}
 
 	// 2번
@@ -50,6 +50,54 @@ int main()
 
 	scanf("%d", &num2);
 
+	if (((num2 % 400) == 0) || (((num2 % 4) == 0) && ((num2 % 100) != 0))) {
+		printf("leap year\n");
+	}
+	else
+	{
+		printf("common year\n");
+	}
+	// 4번
 	
+	printf("1번은, 개 2번은 고양이 3번은 병아리로 정하고 번호를 일렵하면 해당하는 동물을 영어로 출력하시오. \n");
+
+	int inputNumber;
+	printf("Number? ");
+	scanf("%d", &inputNumber);
+
+	switch (inputNumber)
+	{
+	case 1:
+		printf("dog\n");
+		break;
+	case 2:
+		printf("cat\n");
+		break;
+	case 3:
+		printf("chick\n");
+		break;
+	default:
+		printf("I don't know\n");
+	}
+
+	//5번.
+
+	printf("1~12사이의 정수르 입력받아 평년의 경우 입력받은 월의 날 수를 출력하는 프로그램을 작성하시오.\n");
+
+	int oneToTwelve;
+	scanf("%d", &oneToTwelve);
+
+	switch (oneToTwelve) {
+	case 2:
+		printf("28\n");
+		break;
+	case 1: case 3: case 5: case 7: case 8: case 9:
+		printf("31\n");
+		break;
+	default:
+		printf("30\n");
+
+	}
+
 	return 0;
 }
