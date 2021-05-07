@@ -13,6 +13,3 @@
 ![image](https://user-images.githubusercontent.com/58841571/115165337-5bec4600-a0e8-11eb-9686-f262e1532b07.png)
 
 
-# 파이썬
-
-스크립트 
