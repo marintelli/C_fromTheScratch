@@ -1,30 +1,24 @@
 #include <stdio.h>
-#include <string.h>
 #include <ctype.h>
+#include <string.h>
 
 int main()
 {
     
-    char ch;
     
-    while(1)
+    char ch[101];
+    int i, len, k;
+    char str[101];
+    
+    scanf("%s", &ch);
+    len = strlen(ch);
+    
+    scanf("%d", &k);
+    
+    for(i = len -1 ; i > len - 1 - k  ; i--)
     {
-    
-        ch = getchar();
-        getchar();
-        
-        if(isalpha(ch))
-        {
-            printf("%c \n", ch);
-        } else if(isdigit(ch))
-        {
-            printf("%d \n", ch);
-        }else{
-            printf("영문 숫자가 아닙니다. ");
-            break;
-        }
+        printf("%c\n", ch[i]);
     }
-    
     
     return 0;
 }
